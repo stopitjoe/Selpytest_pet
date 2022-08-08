@@ -1,6 +1,6 @@
-import pytest
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
+import pytest  # Импортируем библиотеку Pytest
+from selenium import webdriver # Импорт драйвера из Селениум
+from webdriver_manager.chrome import ChromeDriverManager #Импортируем вебрайвер менеджер из библиотеки (чтобы вручную его не сетапать евритайм)
 
 
 @pytest.fixture(scope='function')
